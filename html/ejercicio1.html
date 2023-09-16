@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 1</title>
+
+
+    <style>
+
+        .colofondo{
+
+            background-color: #f6ede5;
+            height: 450px;
+            width: 710px;
+            text-align: center;
+            padding-top: 10px;
+            margin-left: 200px;
+            
+
+        }
+
+    
+
+        table {
+            border-collapse: separate;
+            border: 2px solid white;
+            margin-left: 70px;
+            border-spacing: 8px;
+            background-color: white;
+            padding: 30px;
+            
+            
+            
+        }
+
+        .elboton{
+
+            border: none;
+            background-color: #ff4d54;
+            color: white;
+            width: 70px;
+            height: 49px;
+            cursor: pointer;
+           
+        }
+
+        caption{
+
+            background-color: white;
+            text-align: right;
+            
+            
+            
+        }
+        
+
+        
+
+        
+
+        
+
+    
+        
+
+
+    </style>
+    
+</head>
+<body style="margin-top: 60px;">
+    
+    <div class="colofondo">
+
+        <form action="">
+            
+
+        <table>
+            <caption><img src="../recursos/imagenes/x.png" alt="x" width="20px" height="20px" style="margin-right: 10px; margin-top: 5px;"></caption>
+
+            <tr>
+                <td style="background-color: white;"><input type="text" pattern="^[A-Z][a-zA-Z\s]{0,59}$" title="Escribe tu nombre completo." size="30" placeholder="NAME"></td>
+                
+                <td style="background-color: white;"><input type="text" title="Escribe el nombre de la compañia." size="30" placeholder="COMPANY"></td>
+            </tr>
+
+            <tr>
+                <td style="background-color: white;"><input type="text" pattern="^\+\d{2}-\d{3}-\d{7}$" title="Escribe tu numero de telefono, Ejemplo:+57-123-4534237" size="30" placeholder="TELEPHONE"></td>
+
+                
+                <td style="background-color: white;"><input type="text" pattern="^.{1,30}@gmail\.com$" maxlength="30" title="Escribe tu correo electronico (gmail)." size="30" placeholder="EMAIL"></td>
+                
+
+            </tr>
+            
+            <tr>
+                <td colspan="2"><textarea cols="64" rows="10" placeholder="LEAVE A MESSAGE"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="SEND" style="margin-top: 10px; margin-right: 175px;" class="elboton"></td>
+            </tr>
+            
+
+        
+
+        </table>
+        
+
+            
+
+        </form>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
